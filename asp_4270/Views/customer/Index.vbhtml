@@ -2,7 +2,11 @@
 @Code
 ViewData("Title") = "Index"
 End Code
-
+<style>
+    .1{
+        color:#000002
+    }
+</style>
 <h2>Index</h2>
 
 <p>
@@ -10,7 +14,7 @@ End Code
 </p>
 <table class="table">
     <tr>
-        <th>
+        <th class="1">
             @Html.DisplayNameFor(Function(model) model.Id)
         </th>
         <th>
